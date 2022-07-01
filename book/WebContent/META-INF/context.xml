@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+	<Resource
+		name="jdbc/book"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://mysql-it-user-kakemura.caqzekdermli.ap-northeast-1.rds.amazonaws.com/mysql_sikt_user_kakemura?serverTimezone=JST"
+		username="root"
+		password="root1234"
+	/>
+
+</Context>
+<!--
+<Context reloadable="true">
+	<Resource
+		name="jdbc/book"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost/db_it_engineer24?serverTimezone=JST"
+		username="root"
+		password="root"
+	/>
+</Context>
+-->

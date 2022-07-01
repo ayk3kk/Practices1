@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet/JSP Samples</title>
+<link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+<h1>リクエストパラメータを取得するサーブレット</h1>
+
+<form action="greeting" method="POST">
+
+<p>お名前を入力してください。</p>
+
+	<p>
+		<input id="j" type="radio" name="lang" value="jpn" checked="checked">
+		<label for="j">Japanese</label>
+		<input id="e" type="radio" name="lang" value="eng">
+		<label for="e">English</label>
+	</p>
+
+	<p>得意なプログラミング言語を選択してください。</p>
+	<p>
+		<input id="p1" type="checkbox" name="pgm-lang" value="Java">
+		<label for="p1">Java</label>
+		<input id="p2" type="checkbox" name="pgm-lang" value="Ruby">
+		<label for="p2">Ruby</label>
+		<input id="p3" type="checkbox" name="pgm-lang" value="C/C++">
+		<label for="p3">C/C++</label>
+		<input id="p4" type="checkbox" name="pgm-lang" value="JavaScript">
+		<label for="p4">JavaScript</label>
+		<input id="p5" type="checkbox" name="pgm-lang" value="PHP">
+		<label for="p5">PHP</label>
+	</p>
+
+	<input type="text" name="user">
+	<input type="submit" value="確定">
+</form>
+
+</body>
+</html>
